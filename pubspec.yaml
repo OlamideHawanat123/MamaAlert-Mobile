@@ -1,0 +1,44 @@
+name: mama_alert_app
+description: "Mama Alert - Emergency Patient-Driver Connection App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Local storage
+  shared_preferences: ^2.2.2
+  
+  # Date and time utilities
+  intl: ^0.19.0
+  
+  # Local notifications
+  flutter_local_notifications: ^17.0.0
+  
+  # Permissions
+  permission_handler: ^11.2.0
+  
+  # HTTP client
+  http: ^1.2.0
+  
+  # Location services
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
